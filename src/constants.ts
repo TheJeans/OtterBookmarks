@@ -6,13 +6,13 @@ export const REPO_URL = 'https://github.com/mrmartineau/Otter';
 
 export const ALLOW_SIGNUP = false;
 export const CONTENT = {
-  appName: 'Otter',
+  appName: 'BookieMarks',
   titleSeparator: ' — ',
   dashboardTitle: 'Dashboard',
   dashboardNav: 'Dashboard',
   feedTitle: 'Feed',
   feedNav: 'Feed',
-  allDescription: 'All your items',
+  allDescription: 'All my items',
   searchTitle: 'Search',
   searchInputPlaceholder: 'Search',
   trashTitle: 'Trash',
@@ -46,7 +46,7 @@ export const CONTENT = {
   accountSettingsTitle: 'Account, settings & integrations',
   appSettingsTitle: 'App settings',
   integrationsSettingsTitle: 'Integrations',
-  addToLabel: 'Add to Otter',
+  addToLabel: 'Add to BookieMarks',
   findMatchingTags: 'Find matching tags',
   scrapeThisUrl: 'Scrape this URL',
   fixWithAi: 'Fix with AI',
