@@ -49,7 +49,7 @@ export default async function CollectionPage({ params, searchParams }: Props) {
   }
 
   const subNav = tags?.length
-    ? tags.map((item) => {
+    ? tags.map((item: string) => {
         return {
           text: item,
           href: `/tag/${encodeURIComponent(item)}`,
