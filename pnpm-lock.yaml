@@ -238,8 +238,8 @@ importers:
         specifier: ^0.6.9
         version: 0.6.9(@trivago/prettier-plugin-sort-imports@4.3.0(@vue/compiler-sfc@3.5.13)(prettier@3.3.3))(prettier@3.3.3)
       supabase:
-        specifier: ^1.223.10
-        version: 1.223.10
+        specifier: ^2.20.12
+        version: 2.20.12
       vite:
         specifier: ^5.4.11
         version: 5.4.11(@types/node@22.9.3)
@@ -4528,8 +4528,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     hasBin: true
 
-  supabase@1.223.10:
-    resolution: {integrity: sha512-a5Wi562n0eiV3w359qiCjewyVad688Z3+JHdvLybdlITrwvNIcR6QYqRR6EzjKY5V/sNCqC+5sNf40wDYAYcHg==}
+  supabase@2.20.12:
+    resolution: {integrity: sha512-8UTRRvQdMsfs7jcHPDfv6cFYwrar5OyqidtB8GSdPCaKfEP+0n4TwCVwu7H0tDCbCYs28HDZDzQAZ8Ox+aVIiA==}
     engines: {npm: '>=8'}
     hasBin: true
 
@@ -8540,7 +8540,7 @@ snapshots:
   micromark@4.0.0:
     dependencies:
       '@types/debug': 4.1.8
-      debug: 4.3.4
+      debug: 4.3.7
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.0
@@ -9771,7 +9771,7 @@ snapshots:
       pirates: 4.0.6
       ts-interface-checker: 0.1.13
 
-  supabase@1.223.10:
+  supabase@2.20.12:
     dependencies:
       bin-links: 5.0.0
       https-proxy-agent: 7.0.5
