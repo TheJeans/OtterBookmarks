@@ -14,7 +14,6 @@
   "scripts": {
     "predev": "npm run supabase:types",
     "dev": "next dev -p 5678",
-    "prebuild": "npm run supabase:types",
     "build": "next build",
     "prestart": "npm run supabase:types",
     "start": "next start",
